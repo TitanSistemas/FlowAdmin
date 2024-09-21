@@ -1,0 +1,30 @@
+#dashboardListar #corpo{background-color: transparent;display: flex;justify-content: center;align-items: flex-start;padding-top: 80px;}
+#dashboardListar #corpo #pesquisa{flex-direction: row;display: flex;align-items: center;justify-content: center;width: 100%;}
+/* #dashboardListar #corpo #pesquisa input{width: 100%;} */
+#dashboardListar #corpo #resultados{margin-top: 20px;width: 100%;}
+#dashboardListar #corpo #resultados table{width: 100%;}
+#dashboardListar #corpo #resultados table th{background-color: #000;color: #fff;}
+#dashboardListar #corpo #resultados table tr:nth-child(even){background-color: #f1f1f1;}
+#dashboardListar #corpo #resultados table td{text-align: center;}
+#dashboardListar #corpo #resultados table img{height: 40px;}
+
+#dashboardListar #corpo select {
+    padding: 8px;
+    margin: 0 0 !important;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-left: 10px !important;
+}
+#dashboardListar #corpo .input-container {
+    margin-bottom: 0 !important;
+    width: 100%;
+}
+#dashboardListar #corpo .input-field{
+    padding: 8px;
+}
+#dashboardListar #corpo .button{
+    width: fit-content;
+    margin-left: 10px;
+}
+/* #dashboardListar #corpo #pesquisa{} */
